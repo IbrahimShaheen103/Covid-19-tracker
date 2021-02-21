@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(255, 255, 255);
+    background-image: url(./images/png-world-map-world-map-png-2638.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .image {
+    width: 370px;
+    margin-top: 50px;
+  }
+  
+  @media only screen and (max-width: 770px) {
+    .container {
+      margin: 0 10%;
+    }
+  
+    .image {
+      width: 100%;
+    }
+  }
